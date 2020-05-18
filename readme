@@ -1,3 +1,7 @@
+NB: Professor Benson, I was unable to submit lab6 and lab7 to canvas, here are the links to them:
+https://github.com/dmitriykcsun/lab6cs322
+https://github.com/dmitriykcsun/lab7cs322
+
 This C program solves the dining philosophers problem as best as possible using only semaphores. Number of philosophers is dynamic based on user input on running the bash script which activates the dining-p program, where each instance is representative of a philosopher. Philosophers can be killed by kill -TERM pid which will print out how many cycles of eat-think that philosopher went through. Also, by default each program will end when they reach 10 cycles to prevent infinite runtime, though this can be changed with one line to any number.
 
 The bash script is run as "./launch-philosophers.sh x" where x is the number of philosophers you'd like.
